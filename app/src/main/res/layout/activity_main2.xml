@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pranay.todo_4.Main2Activity">
+
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Date Before Which Activity Needs To Be Completed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <EditText
+        android:id="@+id/Dateedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:text="Time Before Which Activity Needs To Be Completed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <EditText
+        android:id="@+id/timeedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/infotextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:allowUndo="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Select Priority Order"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:id="@+id/radiogroup"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/highradiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="HIGH"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <RadioButton
+            android:id="@+id/mediumradiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="MEDIUM"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <RadioButton
+            android:id="@+id/lowradiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOW"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Task"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
